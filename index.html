@@ -16,6 +16,8 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        position: fixed;
+        background-color: rgba(255, 255, 255, 0.65);
     }
     
     #pages{
@@ -29,7 +31,71 @@
         }
         a:hover{
             font-size: 26px;
-            border: 1px solid goldenrod;
+            border: 1px solid rgb(131, 93, 71);
+        }
+        .second{
+            height: 600px;
+            width: 100%;
+            background-image: url("coffee_bg.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: right;
+            align-items: center;
+        }
+        .third{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .fourth{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .fifth{
+            width: 100%;
+            height: 700px;
+            background-image: url("background-fifth.jpg");
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 20px;
+           
+
+        }
+        .fifth_child1{
+            background-color: rgba(255, 255, 255, 0.65);
+            width: 60%;
+            border-radius: 15px;
+            
+        }
+        .fifth_child2{
+            background-color: rgba(255, 255, 255, 0.65);
+            width: 95%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 20px;
+            border-radius: 15px;
+        }
+        .fifth_child2_child{
+            display: flex;
+            flex-direction: column;
+            align-items: center ;
+            
+        }
+        .sixth{
+            height: 600px;
+            background-image: url("coffee-cup.jpg");
+        }
+        .footer{
+            height: 200px;
+            background-color: black;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
         }
     
 </style>
@@ -54,6 +120,86 @@
         </div>
         
     </header>
+    <div class="second">
+        <div class="content" style="display: flex;flex-direction: column;align-items: center;">
+            <h1 style="color: white;font-size: 55px;letter-spacing: 10px;">Coffe Aroma</h1>
+            <img src="slider-separator-img.png" alt="" width="300">
+        </div>
+        
+    </div>
+    <div class="third">
+        <h1 style="font-size: 50px;">Our Delicious Offer</h1>
+        <img src="title-separator.png" alt="" width="200">
+        <p style="font-size: 26px;">We offer a wide range of coffee for all type of your moods(Happy,sad,angry)</p>
+    </div>
+    <div class="fourth">
+        <div>
+            <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h2-custom-icon-5.png" alt="">
+            <h1>Types of coffee</h1>
+            <p>We offer a wide range of coffee.</p>
+        </div>
+        <div> <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h2-custom-icon-6.png" alt="">
+            <h1>Bean Varities</h1>
+            <p>We offer a wide range of coffee.</p>
+        </div>
+        <div> <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h2-custom-icon-7.png" alt="">
+            <h1>Coffee & Pastry</h1>
+            <p>We offer a wide range of coffee.</p>
+        </div>
+        <div> <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h2-custom-icon-8.png" alt="">
+            <h1>Coffee To Go</h1>
+            <p>We offer a wide range of coffee.</p>
+        </div>
+    </div>
+    <div class="fifth">
+        <div class="fifth_child1" style="display: flex;flex-direction: column;align-items: center;" >
+            <h1>The Coffee Herald</h1>
+            <img src="title-separator.png" alt="" width="200">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, laborum!</p>
+        </div>
+        <br><br>
+        <div class="fifth_child2">
+            <div class="fifth_child2_child">
+                <img src="coffee_machine.jpg" alt="" width="300">
+                <h1>Prep Techniques</h1>
+                <p>Quisque rutrum, aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi, nam eget dui. Etiam rhoncus maecenas tempus,</p>
+                <a href="">-Read More</a>
+            </div>
+            <div class="fifth_child2_child">
+               <img src="coffee_machine.jpg" alt="" width="300">
+               <h1>Prep Techniques</h1>
+                <p>Quisque rutrum, aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi, nam eget dui. Etiam rhoncus maecenas tempus,</p>
+                <a href="">-Read More</a>
+            </div>
+            <div class="fifth_child2_child">
+                <img src="coffee_machine.jpg" alt="" width="300">
+                <h1>Prep Techniques</h1>
+                <p>Quisque rutrum, aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi, nam eget dui. Etiam rhoncus maecenas tempus,</p>
+                <a href="">-Read More</a>
+            </div>
+        </div>
+    </div>
+    <div class="sixth" style="display: flex;justify-content: flex-end;align-items: center;">
+        <img src="h1-single-img-1-250x226.png" alt="">
+    </div>
+    <footer>
+        <div class="footer" >
+            <div>
+                 <p style="color: white;">&copy; 2025 Cafe Aroma. All rights reserved.</p>
+            </div>
+            <div style="width: 40%;display:flex;justify-content: space-evenly;">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Shop</a>
+                <a href="#">Contact</a>
+            </div>
+            <div>
+                <img src="fb.png" alt="" width="30">
+                <img src="ig.png" alt="" width="30">
+                <img src="x.png" alt="" width="30">
+            </div>
+        </div>
+    </footer>
    
 </body>
 </html>
